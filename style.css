@@ -1,0 +1,106 @@
+*{
+    padding:0%;
+    margin:0%;
+}
+body{
+    background-color: rgb(30, 44, 207);
+    background-size: cover;
+    background-position: centre;
+    min-height: 100vh;
+    width:400px;
+}
+.logo{
+    font-family:'Bruno Ace SC', cursive;
+    font-size: 22px;
+    margin-top: 1px;
+    padding:20px;
+    color: white;
+}
+
+nav {
+    width: 300%;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -20px;;
+}
+
+
+
+.menu a{
+    text-decoration: none;
+    color:white;
+    padding: 10px 20px;
+    font-size: 20px;
+    position:relative;
+}
+
+img.picture{
+    width: 1276px;
+    height: 558px;
+    margin-top: 3px;
+}
+    .pic1 {
+        width: 207px;
+    height: 150px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+    border-radius: 50px;
+    margin-top: -467px;
+    margin-left: 242%;
+    padding: 50px
+}
+
+    .pic2 {
+        width: 207px;
+        height: 150px;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        position: relative;
+        border-radius: 50px;
+        margin-bottom: 427px;
+        margin-left: 1051px;
+    }
+
+
+.box-pain{
+    font-family:cursive;
+    position: relative;
+    margin-top: -330px;
+    margin-left: 1050px;
+    color:rgb(47, 215, 215);
+    font-style:italic;
+    font-size: larger;
+}
+.pt-ser{
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    margin-top: -804px;
+    margin-left: 47px;
+    color: rgb(6, 88, 165);
+    font-size: larger;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(10, 18, 161);
+    color:white;
+    text-align:center ;
+    height: 10%;
+    font-size: 17px;
+}
+
+.footer ul{
+    display: inline-flex;
+    list-style: none;
+    color:white;
+}
+.footer ul li{
+    width: 180px;
+    margin: 60px;
+    padding: 15px;
+    margin-top: 0px;
+}
